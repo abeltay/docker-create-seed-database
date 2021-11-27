@@ -1,0 +1,5 @@
+CREATE TABLE students (
+    id SMALLSERIAL,
+    name CHARACTER VARYING NOT NULL,
+    CONSTRAINT id_pkey PRIMARY KEY (id)
+);
